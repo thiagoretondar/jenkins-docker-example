@@ -22,3 +22,8 @@ docker run -p 8080:8080 -p 50000:50000 -v ${PWD}/jenkins_home:/var/jenkins_home 
 ### Jenkins initial settings
 
 By now, you should be able to open *http://localhost:8080/* and configure your Jenkins with default plugins
+
+
+## Configure Job DSL
+
+Now we will create a job which will be responsible for creating another jobs. For this, we need to install **JOB DSL plugin** <https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin> and don't forget to approve the scripts for JOB DSL.
